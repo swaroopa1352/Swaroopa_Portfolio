@@ -14,7 +14,7 @@ const schema = z.object({
 type FormValues = z.infer<typeof schema>;
 
 export default function ContactForm() {
-  const [status, setStatus] = useState<"idle" | "submitting" | "success" | "error">("idle");
+  const [status, setStatus] = useState<"idle" | "submitting" | "success" | "error" | "not-configured">("idle");
   const {
     register,
     handleSubmit,
@@ -30,6 +30,10 @@ export default function ContactForm() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(data)
       });
+      if (res.status === 404) {
+        setStatus("not-configured");
+        return;
+      }
       if (!res.ok) throw new Error("Request failed");
       setStatus("success");
       reset();
@@ -79,6 +83,7 @@ export default function ContactForm() {
         </Button>
         {status === "success" && <span className="text-sm text-emerald-600">Message sent!</span>}
         {status === "error" && <span className="text-sm text-red-600">Something went wrong.</span>}
+        {status === "not-configured" && <span className="text-sm text-amber-600">Email service not configured yet. Please contact via email or social links.</span>}
       </div>
     </form>
   );
