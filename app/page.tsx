@@ -67,7 +67,7 @@ export default function Page() {
       </Section>
 
       {/* Experience */}
-      <Section id="experience" title="Experience" className="text-left">
+      <Section id="experience" title="Experience" className="text-left" titleClassName="text-center">
         <ExperienceTimelineVertical />
       </Section>
 
