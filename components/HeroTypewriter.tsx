@@ -47,7 +47,7 @@ export default function HeroTypewriter() {
 
   return (
     <p className="mt-6 max-w-2xl text-slate-700 dark:text-slate-300 text-2xl md:text-3xl whitespace-nowrap" aria-live="polite">
-      <span>I'm a </span>
+      <span>I&apos;m a </span>
       <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent font-semibold">
         {text}
         <span className="inline-block w-3 animate-pulse border-r-2 border-primary ml-0.5" aria-hidden />
