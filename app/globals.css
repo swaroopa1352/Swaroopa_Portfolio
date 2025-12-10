@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Better focus styles */
+:focus-visible {
+  outline: 2px solid theme('colors.primary.DEFAULT');
+  outline-offset: 2px;
+}
+
+/* Smooth section entering */
+.fade-in {
+  @apply transition-opacity duration-700 ease-out opacity-0;
+}
+.fade-in.show {
+  @apply opacity-100;
+}
+
+/* Scroll margin for anchored sections under sticky header */
+[id] {
+  scroll-margin-top: 6rem;
+}
+
+/* Utility: hide horizontal scrollbar but keep scrollable */
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; }
