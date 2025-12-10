@@ -20,8 +20,15 @@ export default function ExperienceTimelineHorizontal() {
                     <h3 className="font-medium text-slate-900 dark:text-slate-100">{item.title}</h3>
                     <span className="text-xs text-slate-500 dark:text-slate-400">{item.period}</span>
                   </div>
-                  {item.summary && (
-                    <p className="mt-2 text-sm text-slate-700 dark:text-slate-300">{item.summary}</p>
+                  {item.bullets && item.bullets.length > 0 && (
+                    <ul className="mt-2 space-y-1 text-sm text-slate-700 dark:text-slate-300">
+                      {item.bullets.map((bullet, idx2) => (
+                        <li key={idx2} className="flex gap-2">
+                          <span className="text-primary">•</span>
+                          <span>{bullet}</span>
+                        </li>
+                      ))}
+                    </ul>
                   )}
                 </div>
               </div>
