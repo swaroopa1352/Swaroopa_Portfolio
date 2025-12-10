@@ -40,7 +40,7 @@ export default function Page() {
       {/* About */}
       <Section id="about" title="About Me" className="text-center">
         <p className="mx-auto mb-10 max-w-3xl text-center text-slate-600 dark:text-slate-300">
-          Driven by curiosity and a love for building meaningful systems, I'm passionate about using technology to solve real-world problems across data, software, and AI domains.
+          Driven by curiosity and a love for building meaningful systems, I am passionate about using technology to solve real-world problems across data, software, and AI domains.
         </p>
         <div className="mx-auto grid max-w-6xl grid-cols-1 gap-10 text-left md:grid-cols-2">
           <div className="space-y-5 max-w-prose md:max-w-none">
@@ -49,10 +49,10 @@ export default function Page() {
               <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">Beginning</span>
             </h3>
             <p>
-              I'm a Computer Science graduate who loves building systems that blend clean engineering with thoughtful, user-centered design. From full-stack development to data engineering and cloud deployment, I've worked across the stack to create reliable, scalable, and intuitive software. I enjoy transforming complex problems into simple, elegant solutions - whether that’s crafting APIs, optimizing databases, or bringing interfaces to life with modern frontend frameworks.
+              I am a Computer Science graduate who loves building systems that blend clean engineering with thoughtful, user-centered design. From full-stack development to data engineering and cloud deployment, I have worked across the stack to create reliable, scalable, and intuitive software. I enjoy transforming complex problems into simple, elegant solutions - whether thats crafting APIs, optimizing databases, or bringing interfaces to life with modern frontend frameworks.
             </p>
             <p>
-              My experience spans Spring Boot, Node.js, React, PostgreSQL, Docker, AWS, and AI-driven workflows, and I'm continuously exploring new ways to build better, faster, and smarter. I'm looking for opportunities where I can contribute to impactful products, grow within a collaborative engineering culture, and deepen my expertise in platform-oriented full-stack development.
+              My experience spans Spring Boot, Node.js, React, PostgreSQL, Docker, AWS, and AI-driven workflows, and I am continuously exploring new ways to build better, faster, and smarter. I am looking for opportunities where I can contribute to impactful products, grow within a collaborative engineering culture, and deepen my expertise in platform-oriented full-stack development.
             </p>
           </div>
           <div className="space-y-6">
@@ -84,7 +84,7 @@ export default function Page() {
       {/* Contact */}
       <Section id="contact" title="Let's Connect" className="" titleClassName="text-center">
         <p className="mx-auto mb-8 max-w-3xl text-slate-700 dark:text-slate-300">
-          Interested in building scalable data solutions or AI-powered applications together? Let&rsquo;s discuss how we can turn your data challenges and AI requirements into opportunities.
+          Interested in building scalable data solutions or AI-powered applications together? Lets discuss how we can turn your data challenges and AI requirements into opportunities.
         </p>
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 items-center">
           {/* Left: Info list */}
