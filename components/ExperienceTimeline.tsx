@@ -1,6 +1,6 @@
 import { EXPERIENCE } from "@/lib/data";
 
-// Renders vertical timeline for experience items
+// Renders vertical timeline for experience items (fixed bullets)
 export default function ExperienceTimeline() {
   return (
     <div className="relative">
