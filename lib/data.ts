@@ -52,8 +52,8 @@ export const TECHNICAL_SKILLS = {
     "Python",
     "JavaScript",
     "C",
-    "HTML",
-    "CSS",
+    "HTML5",
+    "CSS3",
   ],
   // frameworks: [
   //   "React.js",
@@ -77,7 +77,7 @@ export const TECHNICAL_SKILLS = {
     "RAG",
   ],
   web3: ["Hardhat", "Web3.js", "Ethers.js"],
-  devops: ["AWS", "Azure","Docker", "Kubernetes", "CI/CD", "Jenkins"],
+  devops: ["AWS", "Azure","Docker", "Kubernetes", "Jenkins"],
   concepts: ["DSA", "OOP", "Design Patterns", "REST", "CI/CD", "Microservices"],
 } as const;
 
@@ -98,9 +98,10 @@ export const EXPERIENCE: ExperienceItem[] = [
     location: "Plano, TX",
     period: "Sep 2025 – Present",
     bullets: [
-      "Designed and developed scalable web applications using Java (Spring Boot) and Node.js (Express), building and documenting RESTful APIs for seamless integration across internal and third-party systems.",
-      "Contributed to full-stack development with React, Next.js, and TypeScript, creating responsive, reusable UI components styled with TailwindCSS to enhance user experience.",
-      "Optimized database performance in PostgreSQL and SQL Server, automated CI/CD pipelines with Jenkins, containerized applications using Docker, and deployed solutions on AWS for reliable, scalable delivery."
+      "Full-Stack Architecture: Built scalable REST APIs using Spring Boot and Node.js, focusing on seamless third-party service integration.",
+      "Frontend Systems: Developed a responsive, modular component library with Next.js, and Tailwind CSS, which significantly cut down UI development time.",
+      "Cloud & DevOps: Containerized the environment with Docker and built Jenkins CI/CD pipelines to automate reliable deployment to AWS.",
+      "Data Optimization: Improved system performance by refactoring complex schemas and query logic in PostgreSQL and SQL Server."
     ]
   },
   {
@@ -238,7 +239,7 @@ export const PROJECTS: Project[] = [
     image: "/images/projects/JB.png",
     tech: ["React.js", "Scikit-learn", "Django", "PostgreSQL", "AI"],
     liveUrl: "https://example.com/job-recommendation", // replace with real
-    sourceUrl: "https://github.com/swaroopa1352/Job_Recommendation_System/tree/main/Job-Recommendation-System-main", // replace with real
+    sourceUrl: "https://github.com/swaroopa1352/Job_Recommendation_System/blob/main/Job-Recommendation-System-main/README.md", // replace with real
     details: {
       problem: "Manual background removal is time-consuming and inconsistent.",
       solution: "Implemented a segmentation pipeline + matte refinement, wrapped in a fast Next.js UI.",
@@ -272,7 +273,7 @@ export const PROJECTS: Project[] = [
     image: "/images/projects/Su.png",
     tech: ["React", "Vite", "TypeScript","Tailwind CSS", "Fastify", "PostgreSQL", "Prisma", "Docker"],
     liveUrl: "https://example.com/swiggy",
-    sourceUrl: "https://github.com/swaroopa1352/Sudoko",
+    sourceUrl: "https://github.com/swaroopa1352/Sudoko/blob/main/README.md",
     details: {
       problem: "Recreate modern food delivery UX for learning state management.",
       solution: "Structured modular Redux slices, route-based data fetching and responsive UI.",
