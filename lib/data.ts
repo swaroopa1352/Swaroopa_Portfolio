@@ -215,6 +215,23 @@ export const EDUCATION: Education[] = [
 // Ordered so first 5 are showcased; remainder revealed via "Other Projects" toggle.
 export const PROJECTS: Project[] = [
   {
+    id: "every-day-planner",
+    title: "Every Day Planner",
+    blurb: "A full-stack, production-ready daily planning application with secure authentication, real-time reminder notifications, and persistent data storage. Built with modern web technologies." ,
+    image: "/images/projects/EDP.png",
+    tech: ["Next.js","React", "Node.js","PostgreSQL", "Prisma","Tailwind CSS", "TypeScript"],
+    liveUrl: "https://every-day-planner.vercel.app/",
+    sourceUrl: "https://github.com/swaroopa1352/EveryDay_Planner/blob/main/README.md",
+    details: {
+      problem: "Urban drivers struggle to find reliable parking availability.",
+      solution: "Geo-indexed listings, real-time availability flags, and reservation workflow.",
+      features: ["Search by area", "Reserve spot", "Listing management"],
+      role: "Full-stack developer",
+      challenges: ["Accurate geo queries", "Preventing double booking"],
+      architecture: "/images/architecture/architecture-sample.svg"
+   }
+ },
+  {
     id: "job-recommendation-system",
     title: "Job Recommendation System",
     blurb: "Data-driven platform recommending jobs based on profile, skills, and preferences.",
