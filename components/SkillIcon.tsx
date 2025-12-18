@@ -41,13 +41,13 @@ const ICONS: Record<string, React.ReactNode> = {
       <path d="M34 12c-12 0-11 6-11 6v7h11v3H19s-7-1-7 11c0 13 9 13 9 13h5v-8s0-7 7-7h12s7 1 7-11c0-12-7-14-7-14h-11v3h8v4H23v-5s-1-7 11-7h2v-6h-2Z" fill="#FFDA4C" />
     </svg>
   ),
-  html: (
+  html5: (
     <svg viewBox="0 0 64 64" aria-hidden>
       <path d="M12 8h40l-5 44-15 4-15-4L12 8Z" fill="#E96228" />
       <path d="M21 18h22l-1 8H30l1 6h10l-1 10-8 2-8-2-1-8h6l1 4 3 1 3-1 1-4H23l-2-16Z" fill="#fff" />
     </svg>
   ),
-  css: (
+  css3: (
     <svg viewBox="0 0 64 64" aria-hidden>
       <path d="M12 8h40l-5 44-15 4-15-4L12 8Z" fill="#2862E9" />
       <path d="M21 18h22l-1 8H30l1 6h10l-1 10-8 2-8-2-1-8h6l1 4 3 1 3-1 1-4H23l-2-16Z" fill="#fff" />
@@ -185,8 +185,8 @@ const SKILL_IMAGES: Record<string, string> = {
   python: "/images/skills/python.svg",
   java: "/images/skills/java.svg",
   c: "/images/skills/c.png",
-  html: "/images/skills/html.svg",
-  css: "/images/skills/css.svg",
+  html5: "/images/skills/html.svg",
+  css3: "/images/skills/css.svg",
   sql: "/images/skills/sql.svg",
   react: "/images/skills/react.png",
   "next.js": "/images/skills/nextjs.png",
